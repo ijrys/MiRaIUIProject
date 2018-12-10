@@ -40,7 +40,7 @@
 
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_Normal" Color="#000"/>
-	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="#FFF"/>
 	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_Normal" Color="#000"/>
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_PointIn" Color="#000"/>
