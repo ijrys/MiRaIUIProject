@@ -1,0 +1,241 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPFUIProject.Theme">
+
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Normal" Color="#252526"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_PointIn" Color="#3E3E40"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_FocusOn" Color="#3E3E40"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_PandF" Color="#3E3E40"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Pressed" Color="#3E3E40"/>
+	
+	<SolidColorBrush x:Key="Brush_Control_BG_Disable_Normal" Color="#1E1E1E"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Disable_PointIn" Color="#1E1E1E"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Disable_FocusOn" Color="#1E1E1E"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Disable_PandF" Color="#1E1E1E"/>
+
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_Normal" Color="#252526"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_PointIn" Color="#252526"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_FocusOn" Color="#252526"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_PandF" Color="#252526"/>
+
+	<SolidColorBrush x:Key="Brush_Control_BG_Imp_Normal" Color="#252526"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Imp_PointIn" Color="#252526"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Imp_FocusOn" Color="#252526"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Imp_PandF" Color="#252526"/>
+
+	<SolidColorBrush x:Key="Brush_Control_BG_Warning_Normal" Color="#FFCB6B"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Warning_PointIn" Color="#FFCB6B"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Warning_FocusOn" Color="#FFCB6B"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Warning_PandF" Color="#FFCB6B"/>
+	
+	<SolidColorBrush x:Key="Brush_Control_BG_Error_Normal" Color="#FF5370"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Error_PointIn" Color="#FF5370"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Error_FocusOn" Color="#FF5370"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Error_PandF" Color="#FF5370"/>
+	
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_Normal" Color="#F1F1F1"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PointIn" Color="#F1F1F1"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_FocusOn" Color="#F1F1F1"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PandF" Color="#F1F1F1"/>
+	
+	<SolidColorBrush x:Key="Brush_Control_FG_Disable_Normal" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Disable_PointIn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Disable_FocusOn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Disable_PandF" Color="#787878"/>
+
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Normal" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_PointIn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_FocusOn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_PandF" Color="#787878"/>
+
+	<SolidColorBrush x:Key="Brush_Control_FG_Imp_Normal" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Imp_PointIn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Imp_FocusOn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Imp_PandF" Color="#787878"/>
+
+	<SolidColorBrush x:Key="Brush_Control_FG_Warning_Normal" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Warning_PointIn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Warning_FocusOn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Warning_PandF" Color="#787878"/>
+	
+	<SolidColorBrush x:Key="Brush_Control_FG_Error_Normal" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Error_PointIn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Error_FocusOn" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Error_PandF" Color="#787878"/>
+	
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_Normal" Color="#007ACC"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PointIn" Color="#007ACC"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_FocusOn" Color="#007ACC"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PandF" Color="#007ACC"/>
+
+	<SolidColorBrush x:Key="Brush_Control_Border_Disable_Normal" Color="#003D66"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Disable_PointIn" Color="#003D66"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Disable_FocusOn" Color="#003D66"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Disable_PandF" Color="#003D66"/>
+
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_Normal" Color="#007ACC"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_PointIn" Color="#007ACC"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_FocusOn" Color="#007ACC"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_PandF" Color="#007ACC"/>
+
+	<SolidColorBrush x:Key="Brush_Control_Border_Imp_Normal" Color="#7ACC00"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Imp_PointIn" Color="#7ACC00"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Imp_FocusOn" Color="#7ACC00"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Imp_PandF" Color="#7ACC00"/>
+
+	<SolidColorBrush x:Key="Brush_Control_Border_Warning_Normal" Color="#CC7A00"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Warning_PointIn" Color="#CC7A00"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Warning_FocusOn" Color="#CC7A00"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Warning_PandF" Color="#CC7A00"/>
+
+	<SolidColorBrush x:Key="Brush_Control_Border_Error_Normal" Color="#CC1010"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Error_PointIn" Color="#CC1010"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Error_FocusOn" Color="#CC1010"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Error_PandF" Color="#CC1010"/>
+	
+	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Disable_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Disable_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Disable_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Disable_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Toggle_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Toggle_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Toggle_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Toggle_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Imp_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Imp_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Imp_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Imp_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Warning_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Warning_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Warning_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Warning_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Error_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Error_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Error_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Error_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Disable_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Disable_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Disable_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Disable_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Toggle_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Toggle_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Toggle_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Toggle_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Imp_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Imp_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Imp_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Imp_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Warning_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Warning_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Warning_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Warning_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Error_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Error_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Error_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Error_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Disable_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Disable_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Disable_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Disable_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Toggle_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Toggle_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Toggle_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Toggle_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Imp_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Imp_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Imp_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Imp_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Warning_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Warning_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Warning_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Warning_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Error_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Error_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Error_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Error_PandF" Color="#000"/>
+	
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Disable_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Disable_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Disable_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Disable_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Toggle_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Toggle_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Toggle_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Toggle_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Imp_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Imp_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Imp_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Imp_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Warning_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Warning_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Warning_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Warning_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Error_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Error_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Error_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Error_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Disable_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Disable_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Disable_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Disable_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Toggle_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Toggle_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Toggle_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Toggle_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Imp_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Imp_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Imp_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Imp_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Warning_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Warning_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Warning_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Warning_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Error_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Error_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Error_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Error_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Disable_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Disable_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Disable_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Disable_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Toggle_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Toggle_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Toggle_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Toggle_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Imp_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Imp_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Imp_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Imp_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Warning_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Warning_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Warning_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Warning_PandF" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Error_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Error_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Error_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Error_PandF" Color="#000"/>
+</ResourceDictionary>

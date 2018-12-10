@@ -1,0 +1,15 @@
+﻿<Application x:Class="WPFUIProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFUIProject"
+             StartupUri="MainWindow.xaml">
+	<Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="Theme\Dark_Lite.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\Button.xaml"/>
+				<!--<ResourceDictionary Source="Resouses\ControlTemplate.xaml"/>-->
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
