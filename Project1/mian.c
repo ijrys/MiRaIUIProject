@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 int main (void) {
-	int z = 10;
-	int x = sizeof (z++);
-	z++;
-	printf ("%d\n", z);
+	int k = 8;
+	printf ("  %.0f\n\n", k);
+	printf ("  () %.0f\n", (double)k);
+
 
 
 	system ("pause");

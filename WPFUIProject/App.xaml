@@ -8,6 +8,7 @@
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="Theme\Dark_Lite.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\Button.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\GroupBox.xaml"/>
 				<!--<ResourceDictionary Source="Resouses\ControlTemplate.xaml"/>-->
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
