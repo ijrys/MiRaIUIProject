@@ -77,16 +77,16 @@
 
 
 	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_Normal" Color="#111"/>
-	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_Normal" Color="#0F0"/>
-	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_Normal" Color="#00F"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_Normal" Color="#DDD"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_Normal" Color="#252526"/>
 
-	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_PointIn" Color="#000"/>
-	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_PointIn" Color="#000"/>
-	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_PointIn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_PointIn" Color="#1E1E1E"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_PointIn" Color="#DDD"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_PointIn" Color="#3E3E40"/>
 
-	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_FocusOn" Color="#000"/>
-	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_FocusOn" Color="#000"/>
-	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_FocusOn" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_FocusOn" Color="#1E1E1E"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_FocusOn" Color="#DDD"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_FocusOn" Color="#3E3E40"/>
 
 	<SolidColorBrush x:Key="Brush_TextBox_BG_Normal_PandF" Color="#000"/>
 	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_PandF" Color="#000"/>
@@ -96,9 +96,9 @@
 	<SolidColorBrush x:Key="Brush_TextBox_FG_Normal_Pressed" Color="#000"/>
 	<SolidColorBrush x:Key="Brush_TextBox_Border_Normal_Pressed" Color="#000"/>
 
-	<SolidColorBrush x:Key="Brush_TextBox_BG_Disable_Normal" Color="#000"/>
-	<SolidColorBrush x:Key="Brush_TextBox_FG_Disable_Normal" Color="#000"/>
-	<SolidColorBrush x:Key="Brush_TextBox_Border_Disable_Normal" Color="#000"/>
+	<SolidColorBrush x:Key="Brush_TextBox_BG_Disable_Normal" Color="#1E1E1E"/>
+	<SolidColorBrush x:Key="Brush_TextBox_FG_Disable_Normal" Color="#787878"/>
+	<SolidColorBrush x:Key="Brush_TextBox_Border_Disable_Normal" Color="#2E2E2E"/>
 
 	<SolidColorBrush x:Key="Brush_TextBox_BG_Disable_PointIn" Color="#000"/>
 	<SolidColorBrush x:Key="Brush_TextBox_FG_Disable_PointIn" Color="#000"/>
