@@ -38,6 +38,9 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Disable_PandF" Color="#787878"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Disable_PandF" Color="#1E1E1E"/>
 
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_Normal" Color="#0070C0"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Normal" Color="#DDD"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_Normal" Color="#007ACC"/>
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_Normal" Color="#000"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="#EEE"/>
