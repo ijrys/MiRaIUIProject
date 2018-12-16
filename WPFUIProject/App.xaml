@@ -11,6 +11,7 @@
 				<ResourceDictionary Source="ControlTemplate\GroupBox.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\TextBox.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\ToggleButton.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\CheckBox.xaml"/>
 				<!--<ResourceDictionary Source="Resouses\ControlTemplate.xaml"/>-->
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>

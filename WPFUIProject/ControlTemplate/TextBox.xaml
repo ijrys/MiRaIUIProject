@@ -18,23 +18,6 @@
 					<Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
 						<ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
 					</Border>
-					<ControlTemplate.Triggers>
-						<Trigger Property="IsEnabled" Value="false">
-							<Setter Property="Background" Value="{DynamicResource Brush_TextBox_BG_Disable_Normal}"/>
-							<Setter Property="Foreground" Value="{DynamicResource Brush_TextBox_FG_Disable_Normal}"/>
-							<Setter Property="BorderBrush" Value="{DynamicResource Brush_TextBox_Border_Disable_Normal}"/>
-						</Trigger>
-						<Trigger Property="IsMouseOver" Value="true">
-							<Setter Property="Background" Value="{DynamicResource Brush_TextBox_BG_Normal_PointIn}"/>
-							<Setter Property="Foreground" Value="{DynamicResource Brush_TextBox_FG_Normal_PointIn}"/>
-							<Setter Property="BorderBrush" Value="{DynamicResource Brush_TextBox_Border_Normal_PointIn}"/>
-						</Trigger>
-						<Trigger Property="IsKeyboardFocused" Value="true">
-							<Setter Property="Background" Value="{DynamicResource Brush_TextBox_BG_Normal_FocusOn}"/>
-							<Setter Property="Foreground" Value="{DynamicResource Brush_TextBox_FG_Normal_FocusOn}"/>
-							<Setter Property="BorderBrush" Value="{DynamicResource Brush_TextBox_Border_Normal_FocusOn}"/>
-						</Trigger>
-					</ControlTemplate.Triggers>
 				</ControlTemplate>
 			</Setter.Value>
 		</Setter>
@@ -46,6 +29,22 @@
 				</MultiTrigger.Conditions>
 				<Setter Property="SelectionBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
 			</MultiTrigger>
+
+			<Trigger Property="IsEnabled" Value="false">
+				<Setter Property="Background" Value="{DynamicResource Brush_TextBox_BG_Disable_Normal}"/>
+				<Setter Property="Foreground" Value="{DynamicResource Brush_TextBox_FG_Disable_Normal}"/>
+				<Setter Property="BorderBrush" Value="{DynamicResource Brush_TextBox_Border_Disable_Normal}"/>
+			</Trigger>
+			<Trigger Property="IsMouseOver" Value="true">
+				<Setter Property="Background" Value="{DynamicResource Brush_TextBox_BG_Normal_PointIn}"/>
+				<Setter Property="Foreground" Value="{DynamicResource Brush_TextBox_FG_Normal_PointIn}"/>
+				<Setter Property="BorderBrush" Value="{DynamicResource Brush_TextBox_Border_Normal_PointIn}"/>
+			</Trigger>
+			<Trigger Property="IsKeyboardFocused" Value="true">
+				<Setter Property="Background" Value="{DynamicResource Brush_TextBox_BG_Normal_FocusOn}"/>
+				<Setter Property="Foreground" Value="{DynamicResource Brush_TextBox_FG_Normal_FocusOn}"/>
+				<Setter Property="BorderBrush" Value="{DynamicResource Brush_TextBox_Border_Normal_FocusOn}"/>
+			</Trigger>
 		</Style.Triggers>
 	</Style>
 </ResourceDictionary>

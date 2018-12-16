@@ -1,17 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:WPFUIProject.ControlTemplate">
-	<Style x:Key="FocusVisual">
-		<Setter Property="Control.Template">
-			<Setter.Value>
-				<ControlTemplate>
-					<Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource Brush_Control_BG_Normal_FocusOn}" StrokeThickness="1" StrokeDashArray="1 2"/>
-				</ControlTemplate>
-			</Setter.Value>
-		</Setter>
-	</Style>
+
+
 	<Style x:Key="StyleButton" TargetType="{x:Type Button}">
-		<Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+		<Setter Property="FocusVisualStyle" Value="{StaticResource StyleFocusVisual}"/>
 		<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_Normal}"/>
 		<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_Normal}"/>
 		<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_Normal}"/>
@@ -25,28 +18,31 @@
 					<Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
 						<ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
 					</Border>
-					<ControlTemplate.Triggers>
-						<Trigger Property="IsDefaulted" Value="true">
-							<Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
-						</Trigger>
-						<Trigger Property="IsMouseOver" Value="true">
-							<Setter Property="Background" TargetName="border" Value="{DynamicResource Brush_Control_BG_Normal_PointIn}"/>
-							<Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{DynamicResource Brush_Control_FG_Normal_PointIn}"/>
-							<Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource Brush_Control_Border_Normal_PointIn}"/>
-						</Trigger>
-						<Trigger Property="IsPressed" Value="true">
-							<Setter Property="Background" TargetName="border" Value="{DynamicResource Brush_Control_BG_Normal_Pressed}"/>
-							<Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{DynamicResource Brush_Control_FG_Normal_Pressed}"/>
-							<Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource Brush_Control_Border_Normal_Pressed}"/>
-						</Trigger>
-						<Trigger Property="IsEnabled" Value="false">
-							<Setter Property="Background" TargetName="border" Value="{DynamicResource Brush_Control_BG_Disable_Normal}"/>
-							<Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{DynamicResource Brush_Control_FG_Disable_Normal}"/>
-							<Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource Brush_Control_Border_Disable_Normal}"/>
-						</Trigger>
-					</ControlTemplate.Triggers>
 				</ControlTemplate>
 			</Setter.Value>
 		</Setter>
+		<Style.Triggers>
+			<Trigger Property="IsFocused" Value="true">
+				<!--<Setter Property="Background" Value="#F00"/>-->
+			</Trigger>
+			<Trigger Property="IsDefaulted" Value="true">
+				<Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+			</Trigger>
+			<Trigger Property="IsMouseOver" Value="true">
+				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_PointIn}"/>
+				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_PointIn}"/>
+				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_PointIn}"/>
+			</Trigger>
+			<Trigger Property="IsPressed" Value="true">
+				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_Pressed}"/>
+				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_Pressed}"/>
+				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_Pressed}"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="false">
+				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Disable_Normal}"/>
+				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Disable_Normal}"/>
+				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Disable_Normal}"/>
+			</Trigger>
+		</Style.Triggers>
 	</Style>
 </ResourceDictionary>
