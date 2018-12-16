@@ -21,6 +21,11 @@
 		</Setter>
 
 		<Style.Triggers>
+			<Trigger Property="IsFocused" Value="true">
+				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_FocusOn}"/>
+				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_FocusOn}"/>
+				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_FocusOn}"/>
+			</Trigger>
 			<Trigger Property="Button.IsDefaulted" Value="true">
 				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_FocusOn}"/>
 			</Trigger>

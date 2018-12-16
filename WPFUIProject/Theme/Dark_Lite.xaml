@@ -10,9 +10,9 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PointIn" Color="#F1F1F1"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PointIn" Color="#007ACC"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Normal_FocusOn" Color="#404042"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_FocusOn" Color="#252526"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_FocusOn" Color="#F1F1F1"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Normal_FocusOn" Color="#3399EE"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_FocusOn" Color="#404042"/>
 
 	<SolidColorBrush x:Key="Brush_Control_BG_Normal_PandF" Color="#3E3E40"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PandF" Color="#F1F1F1"/>
@@ -120,18 +120,31 @@
 		<Setter Property="Control.Template">
 			<Setter.Value>
 				<ControlTemplate>
-					<Border>
+					<Border x:Name="cbx" Opacity="0.8">
 						<Border.Effect>
-							<DropShadowEffect BlurRadius="4" Color="#FFF" ShadowDepth="0"/>
+							<DropShadowEffect BlurRadius="8" Color="#FFF" ShadowDepth="0"/>
 						</Border.Effect>
-
 						<Border.Resources>
 							<ResourceDictionary>
 								<Storyboard x:Key="Storyboard1">
 									<ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="ctx">
 										<EasingThicknessKeyFrame KeyTime="0" Value="-4"/>
-										<EasingThicknessKeyFrame KeyTime="0:0:0.2" Value="-2"/>
+										<EasingThicknessKeyFrame KeyTime="0:0:0.2" Value="-1"/>
 									</ThicknessAnimationUsingKeyFrames>
+									<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Opacity)" Storyboard.TargetName="cbx">
+										<LinearDoubleKeyFrame KeyTime="0" Value="0.4"/>
+										<LinearDoubleKeyFrame KeyTime="0:0:0.2" Value="0.8"/>
+									</DoubleAnimationUsingKeyFrames>
+								</Storyboard>
+								<Storyboard x:Key="StoryboardClose">
+									<ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="ctx">
+										<EasingThicknessKeyFrame KeyTime="0" Value="-1"/>
+										<EasingThicknessKeyFrame KeyTime="0:0:0.2" Value="-4"/>
+									</ThicknessAnimationUsingKeyFrames>
+									<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Opacity)" Storyboard.TargetName="cbx">
+										<LinearDoubleKeyFrame KeyTime="0" Value="0.8"/>
+										<LinearDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+									</DoubleAnimationUsingKeyFrames>
 								</Storyboard>
 							</ResourceDictionary>
 						</Border.Resources>
@@ -139,9 +152,12 @@
 							<EventTrigger RoutedEvent="FrameworkElement.Loaded">
 								<BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
 							</EventTrigger>
+							<EventTrigger RoutedEvent="FrameworkElement.Unloaded">
+								<BeginStoryboard Storyboard="{StaticResource StoryboardClose}"/>
+							</EventTrigger>
 						</Border.Triggers>
 						<!--<Rectangle Margin="-2" SnapsToDevicePixels="true" Stroke="{DynamicResource Brush_Control_Border_Normal_FocusOn}" StrokeThickness="1" StrokeDashArray="1 2"/>-->
-						<Rectangle x:Name="ctx" Margin="-2" SnapsToDevicePixels="true" Stroke="{DynamicResource Brush_Control_Border_Normal_FocusOn}" StrokeThickness="1"/>
+						<Rectangle x:Name="ctx" Margin="-1" SnapsToDevicePixels="true" Stroke="{DynamicResource Brush_Control_Border_Normal_FocusOn}" StrokeThickness="1"/>
 					</Border>
 				</ControlTemplate>
 			</Setter.Value>
