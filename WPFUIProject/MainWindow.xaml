@@ -19,9 +19,9 @@
 		<Style TargetType="{x:Type ToggleButton}" BasedOn="{StaticResource StyleToggleButton}"/>
 		<Style TargetType="{x:Type CheckBox}" BasedOn="{StaticResource StyleCheckBox}"/>
 		<Style TargetType="{x:Type ScrollBar}" BasedOn="{StaticResource StyleScrollBar}"/>
+		<Style TargetType="{x:Type ScrollViewer}" BasedOn="{StaticResource StyleScrollViewer}"/>
 		
-
-
+		
 
 	</Window.Resources>
 
@@ -130,7 +130,7 @@
 					<ScrollViewer Height="192px" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible">
 						<Image Source="pack://application:,,,/res/bg.jpg"/>
 					</ScrollViewer>
-					
+
 					<ScrollBar Height="64px" Grid.Column="1"></ScrollBar>
 
 					<ScrollBar Orientation="Horizontal" Height="64px" Grid.Column="2"></ScrollBar>

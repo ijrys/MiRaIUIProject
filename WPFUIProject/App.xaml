@@ -13,6 +13,7 @@
 				<ResourceDictionary Source="ControlTemplate\ToggleButton.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\CheckBox.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\ScrollBar.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\ScrollView.xaml"/>
 				<!--<ResourceDictionary Source="Resouses\ControlTemplate.xaml"/>-->
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
