@@ -64,6 +64,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ControlTemplate\ComboBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ControlTemplate\GroupBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

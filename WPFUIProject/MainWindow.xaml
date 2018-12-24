@@ -4,7 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFUIProject"
-        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2" x:Class="WPFUIProject.MainWindow"
+        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2"
+	x:Class="WPFUIProject.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="585" Width="824"
 		Background="{DynamicResource Brush_Panel_BG_Normal_Normal}"
@@ -21,6 +22,8 @@
 		<Style TargetType="{x:Type ScrollBar}" BasedOn="{StaticResource StyleScrollBar}"/>
 		<Style TargetType="{x:Type ScrollViewer}" BasedOn="{StaticResource StyleScrollViewer}"/>
 		<Style TargetType="RadioButton" BasedOn="{StaticResource StyleRadioButton}"/>
+		<Style TargetType="ComboBox" BasedOn="{StaticResource StyleComboBox}"/>
+
 
 	</Window.Resources>
 
@@ -121,7 +124,8 @@
 						<ColumnDefinition Width="1*"/>
 						<ColumnDefinition Width="1*"/>
 					</Grid.ColumnDefinitions>
-					<ComboBox>
+
+					<ComboBox Grid.Column="0">
 						<ComboBoxItem Content="1"/>
 						<ComboBoxItem Content="2"/>
 						<ComboBoxItem Content="3"/>
