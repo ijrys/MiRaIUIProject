@@ -9,11 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creater", "Creater\Creater.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{DF2111BA-FC6E-4221-BC56-7D68B63EAD30}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IMGS", "IMGS", "{0A423B86-5122-4CF1-B7CF-2E3290B980FB}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\20181224.png = ..\..\..\Desktop\20181224.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -6,7 +6,7 @@
 	<Application.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="Theme\Dark_Lite.xaml"/>
+				<ResourceDictionary Source="Theme\Dark.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\Button.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\GroupBox.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\TextBox.xaml"/>
@@ -16,7 +16,6 @@
 				<ResourceDictionary Source="ControlTemplate\ScrollView.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\RadioButton.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\ComboBox.xaml"/>
-				<!--<ResourceDictionary Source="Resouses\ControlTemplate.xaml"/>-->
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>
