@@ -7,7 +7,8 @@
         xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2"
 	x:Class="WPFUIProject.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="585" Width="824"
+        Title="MainWindow" Height="1080
+	" Width="824"
 		Background="{DynamicResource Brush_Panel_BG_Normal_Normal}"
 		Foreground="{DynamicResource Brush_Panel_FG_Normal_Normal}"
 		FontSize="16">
@@ -23,6 +24,7 @@
 		<Style TargetType="{x:Type ScrollViewer}" BasedOn="{StaticResource StyleScrollViewer}"/>
 		<Style TargetType="RadioButton" BasedOn="{StaticResource StyleRadioButton}"/>
 		<Style TargetType="ComboBox" BasedOn="{StaticResource StyleComboBox}"/>
+		<Style TargetType="TreeView" BasedOn="{StaticResource StyleTreeView}"/>
 
 
 	</Window.Resources>
@@ -152,6 +154,22 @@
 					</ScrollViewer>
 					<ScrollBar Height="64px" Grid.Column="1"></ScrollBar>
 					<ScrollBar Orientation="Horizontal" Height="64px" Grid.Column="2"></ScrollBar>
+				</Grid>
+			</GroupBox>
+			<GroupBox Header="Tree View">
+				<Grid>
+					<TreeView x:Name="tview">
+						<TreeView x:Name="Tree_Project">
+							<TreeView.ItemTemplate>
+								<HierarchicalDataTemplate ItemsSource="{Binding Path=Childrens}">
+									<StackPanel Orientation="Horizontal">
+										<Image VerticalAlignment="Center" Source="{Binding Icon}" Width="16" Height="16" Margin="0,0,2,2"></Image>
+										<TextBlock VerticalAlignment="Center" Text="{Binding NodeName}"></TextBlock>
+									</StackPanel>
+								</HierarchicalDataTemplate>
+							</TreeView.ItemTemplate>
+						</TreeView>
+					</TreeView>
 				</Grid>
 			</GroupBox>
 		</StackPanel>

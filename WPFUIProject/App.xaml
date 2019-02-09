@@ -16,6 +16,7 @@
 				<ResourceDictionary Source="ControlTemplate\ScrollView.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\RadioButton.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\ComboBox.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\TreeView.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,10 +22,32 @@ namespace WPFUIProject {
 	public partial class MainWindow : Window {
 		public MainWindow() {
 			InitializeComponent();
+
+			BitmapImage icon1 = new BitmapImage(new Uri("pack://application:,,,/res/Dark_Icon_Pro.png"));
+			BitmapImage icon2 = new BitmapImage(new Uri("pack://application:,,,/res/Dark_Icon_Gra.png"));
+
+			ObservableCollection<TreeViewNode> tviewnodes = new ObservableCollection<TreeViewNode>();
+			TreeViewNode root1 = new TreeViewNode() { NodeName = "root node", Icon = icon1 };
+			root1.Childrens.Add(new TreeViewNode() { NodeName = "node 1.1", Icon = icon2 });
+			root1.Childrens.Add(new TreeViewNode() { NodeName = "node 1.2", Icon = icon2 });
+			TreeViewNode root2 = new TreeViewNode() { NodeName = "root node", Icon = icon1 };
+			root2.Childrens.Add(new TreeViewNode() { NodeName = "node 2.1", Icon = icon2 });
+			root2.Childrens.Add(new TreeViewNode() { NodeName = "node 2.2", Icon = icon2 });
+			tviewnodes.Add(root1);
+			tviewnodes.Add(root2);
+
+			tview.ItemsSource = tviewnodes;
 		}
 
 		private void Button_Click(object sender, RoutedEventArgs e) {
 			//ToggleButton tbtn = new ToggleButton();
 		}
+	}
+
+	public class TreeViewNode {
+		public ObservableCollection<TreeViewNode> Childrens { get; set; } = new ObservableCollection<TreeViewNode>();
+
+		public BitmapImage Icon { get; set; }
+		public string NodeName { get; set; }
 	}
 }
