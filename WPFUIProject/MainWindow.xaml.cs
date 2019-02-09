@@ -23,20 +23,20 @@ namespace WPFUIProject {
 		public MainWindow() {
 			InitializeComponent();
 
-			BitmapImage icon1 = new BitmapImage(new Uri("pack://application:,,,/res/Dark_Icon_Pro.png"));
-			BitmapImage icon2 = new BitmapImage(new Uri("pack://application:,,,/res/Dark_Icon_Gra.png"));
+			BitmapImage icon1 = new BitmapImage(new Uri("pack://application:,,,/res/Dark_Icon_Pro.png", UriKind.RelativeOrAbsolute));
+			BitmapImage icon2 = new BitmapImage(new Uri("pack://application:,,,/res/Dark_Icon_Gra.png", UriKind.RelativeOrAbsolute));
 
 			ObservableCollection<TreeViewNode> tviewnodes = new ObservableCollection<TreeViewNode>();
+			tview.ItemsSource = tviewnodes;
+
 			TreeViewNode root1 = new TreeViewNode() { NodeName = "root node", Icon = icon1 };
 			root1.Childrens.Add(new TreeViewNode() { NodeName = "node 1.1", Icon = icon2 });
 			root1.Childrens.Add(new TreeViewNode() { NodeName = "node 1.2", Icon = icon2 });
+			tviewnodes.Add(root1);
 			TreeViewNode root2 = new TreeViewNode() { NodeName = "root node", Icon = icon1 };
 			root2.Childrens.Add(new TreeViewNode() { NodeName = "node 2.1", Icon = icon2 });
 			root2.Childrens.Add(new TreeViewNode() { NodeName = "node 2.2", Icon = icon2 });
-			tviewnodes.Add(root1);
 			tviewnodes.Add(root2);
-
-			tview.ItemsSource = tviewnodes;
 		}
 
 		private void Button_Click(object sender, RoutedEventArgs e) {
