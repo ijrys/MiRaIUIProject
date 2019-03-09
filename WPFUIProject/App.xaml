@@ -18,6 +18,8 @@
 				<ResourceDictionary Source="ControlTemplate\ComboBox.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\TreeView.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\TreeViewItem.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\Menu.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\MenuItem.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>
