@@ -20,6 +20,7 @@
 				<ResourceDictionary Source="ControlTemplate\TreeViewItem.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\Menu.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\MenuItem.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\ToolBar.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>

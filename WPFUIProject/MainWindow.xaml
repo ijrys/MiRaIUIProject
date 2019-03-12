@@ -27,6 +27,12 @@
 		<Style TargetType="TreeViewItem" BasedOn="{StaticResource StyleTreeViewItem}"/>
 		<Style TargetType="Menu" BasedOn="{StaticResource StyleMenu}"/>
 		<Style TargetType="MenuItem" BasedOn="{StaticResource StyleMenuItem}"/>
+		<Style TargetType="ToolBar" BasedOn="{StaticResource StyleToolBar}"/>
+		<!--<SolidColorBrush x:Key="ToolBarMenuBorder" Color="#FFB6BDC5"/>
+		<SolidColorBrush x:Key="ToolBarSubMenuBackground" Color="#FFEEF5FD"/>-->
+
+
+
 	</Window.Resources>
 
 	<ScrollViewer>
@@ -187,8 +193,35 @@
 							<MenuItem Header="Paste"/>
 						</MenuItem>
 					</Menu>
-
 				</Grid>
+			</GroupBox>
+			<GroupBox Header="ToolBar">
+				<ToolBar>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+					<Button>Save</Button>
+					<Button>open</Button>
+					<Button>New</Button>
+				</ToolBar>
 			</GroupBox>
 		</StackPanel>
 	</ScrollViewer>
