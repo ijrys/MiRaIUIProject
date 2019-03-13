@@ -7,11 +7,13 @@
         xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2"
         x:Class="WPFUIProject.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="824"
+        Title="MainWindow" Height="1080" Width="700"
 		Background="{DynamicResource Brush_Panel_BG_Normal_Normal}"
 		Foreground="{DynamicResource Brush_Panel_FG_Normal_Normal}"
 		FontSize="16">
 	<Window.Resources>
+
+		<Style TargetType="{x:Type Label}" BasedOn="{StaticResource StyleLabel}"/>
 		<Style TargetType="{x:Type Button}" BasedOn="{StaticResource StyleButton}"/>
 		<Style TargetType="{x:Type GroupBox}" BasedOn="{StaticResource StyleGroupBox}">
 			<Setter Property="Margin" Value="8 4"/>
@@ -28,8 +30,15 @@
 		<Style TargetType="Menu" BasedOn="{StaticResource StyleMenu}"/>
 		<Style TargetType="MenuItem" BasedOn="{StaticResource StyleMenuItem}"/>
 		<Style TargetType="ToolBar" BasedOn="{StaticResource StyleToolBar}"/>
-		<!--<SolidColorBrush x:Key="ToolBarMenuBorder" Color="#FFB6BDC5"/>
-		<SolidColorBrush x:Key="ToolBarSubMenuBackground" Color="#FFEEF5FD"/>-->
+		<Style TargetType="ListBox" BasedOn="{StaticResource StyleListBox}"/>
+		
+		
+		
+		<!--<SolidColorBrush x:Key="ListBox.Static.Background" Color="#FFF"/>-->
+		<!--<SolidColorBrush x:Key="ListBox.Static.Border" Color="#FFABADB3"/>-->
+		<!--<SolidColorBrush x:Key="ListBox.Disabled.Background" Color="#FFFFFFFF"/>
+		<SolidColorBrush x:Key="ListBox.Disabled.Border" Color="#FFD9D9D9"/>-->
+		
 
 
 
@@ -37,6 +46,15 @@
 
 	<ScrollViewer>
 		<StackPanel >
+			<GroupBox Header="Label">
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="1*"/>
+						<ColumnDefinition Width="1*"/>
+					</Grid.ColumnDefinitions>
+					<Label Style="{DynamicResource StyleLabel}">This is a label</Label>
+				</Grid>
+			</GroupBox>
 			<GroupBox Header="Button">
 				<Grid>
 					<Grid.ColumnDefinitions>
@@ -222,6 +240,15 @@
 					<Button>open</Button>
 					<Button>New</Button>
 				</ToolBar>
+			</GroupBox>
+
+
+			<GroupBox Header="ListBox">
+				<ListBox Style="{DynamicResource StyleListBox}">
+					<ListBoxItem>Item1</ListBoxItem>
+					<ListBoxItem>Item2</ListBoxItem>
+					<ListBoxItem>Item3</ListBoxItem>
+				</ListBox>
 			</GroupBox>
 		</StackPanel>
 	</ScrollViewer>

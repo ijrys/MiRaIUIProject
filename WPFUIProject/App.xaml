@@ -7,6 +7,7 @@
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="Theme\Dark.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\Label.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\Button.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\GroupBox.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\TextBox.xaml"/>
@@ -21,6 +22,7 @@
 				<ResourceDictionary Source="ControlTemplate\Menu.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\MenuItem.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\ToolBar.xaml"/>
+				<ResourceDictionary Source="ControlTemplate\ListBox.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>
