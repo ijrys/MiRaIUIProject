@@ -37,6 +37,9 @@ namespace WPFUIProject {
 			root2.Childrens.Add(new TreeViewNode() { NodeName = "node 2.1", Icon = icon2 });
 			root2.Childrens.Add(new TreeViewNode() { NodeName = "node 2.2", Icon = icon2 });
 			tviewnodes.Add(root2);
+
+			//ScrollViewer sv = new ScrollViewer();
+			//sv.Visibility = Visibility.
 		}
 
 		private void Button_Click(object sender, RoutedEventArgs e) {

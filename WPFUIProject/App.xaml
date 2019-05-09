@@ -6,7 +6,8 @@
 	<Application.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="Theme\Dark.xaml"/>
+				<!--<ResourceDictionary Source="Theme\Dark.xaml"/>-->
+				<ResourceDictionary Source="Theme\Light.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\Label.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\Button.xaml"/>
 				<ResourceDictionary Source="ControlTemplate\GroupBox.xaml"/>
