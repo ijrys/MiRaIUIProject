@@ -1,12 +1,12 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Normal_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Normal_Normal" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Normal" Color="{StaticResource BackgroundColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_Normal" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_Normal" Color="{StaticResource ThemeColor}"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Normal_PointIn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PointIn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PointIn" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_PointIn" Color="{StaticResource BackgroundColorLContrast}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PointIn" Color="{StaticResource TextColorHContrast}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PointIn" Color="{StaticResource ThemeColor}"/>
 
 	<SolidColorBrush x:Key="Brush_Control_BG_Normal_FocusOn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_FocusOn" Color="#F00"/>
@@ -16,13 +16,13 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PandF" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PandF" Color="#F00"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Pressed" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Normal_Pressed" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Normal_Pressed" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Pressed" Color="{StaticResource BackgroundColorHContrast}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_Pressed" Color="{StaticResource TextColorLContrast}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_Pressed" Color="{StaticResource ThemeColor}"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Disable_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Disable_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Disable_Normal" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Disable_Normal" Color="{StaticResource BackgroundColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Disable_Normal" Color="{StaticResource TextColorLContrast}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Disable_Normal" Color="{StaticResource ThemeColorLContrast}"/>
 
 	<SolidColorBrush x:Key="Brush_Control_BG_Disable_PointIn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Disable_PointIn" Color="#F00"/>
@@ -60,9 +60,9 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_Pressed" Color="#F00"/>
 
-	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_Normal" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_Normal" Color="{StaticResource BackgroundColor}"/>
+	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_Normal" Color="{StaticResource ThemeColor}"/>
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_PointIn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_PointIn" Color="#F00"/>

@@ -21,5 +21,37 @@ namespace Demo {
 		public MainWindow() {
 			InitializeComponent();
 		}
+
+		private void btn_bcdisplay_click(object sender, RoutedEventArgs e) {
+			btn_bcdisplay.IsChecked = true;
+			btn_panelsdisplay.IsChecked = false;
+			btn_controlsdisplay.IsChecked = false;
+			btn_textareadisplay.IsChecked = false;
+			this.Page_Content.Source = new Uri("DisplayBasicColor.xaml", UriKind.Relative);
+		}
+
+		private void btn_panelsdisplay_click(object sender, RoutedEventArgs e) {
+			btn_bcdisplay.IsChecked = false;
+			btn_panelsdisplay.IsChecked = true;
+			btn_controlsdisplay.IsChecked = false;
+			btn_textareadisplay.IsChecked = false;
+			this.Page_Content.Source = new Uri("DisplayPanel.xaml", UriKind.Relative);
+		}
+
+		private void btn_controlsdisplay_Click(object sender, RoutedEventArgs e) {
+			btn_bcdisplay.IsChecked = false;
+			btn_panelsdisplay.IsChecked = false;
+			btn_controlsdisplay.IsChecked = true;
+			btn_textareadisplay.IsChecked = false;
+			this.Page_Content.Source = new Uri("DisplayControl.xaml", UriKind.Relative);
+		}
+
+		private void btn_textareadisplay_Click(object sender, RoutedEventArgs e) {
+			btn_bcdisplay.IsChecked = false;
+			btn_panelsdisplay.IsChecked = false;
+			btn_controlsdisplay.IsChecked = false;
+			btn_textareadisplay.IsChecked = true;
+			this.Page_Content.Source = new Uri("DisplayTextarea.xaml", UriKind.Relative);
+		}
 	}
 }

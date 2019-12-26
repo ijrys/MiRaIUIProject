@@ -7,7 +7,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ControlTemplates\" />
+    <Page Remove="ControlTemplates\Button.xaml" />
+    <Page Remove="ControlTemplates\CheckBox.xaml" />
+    <Page Remove="ControlTemplates\ComboBox.xaml" />
+    <Page Remove="ControlTemplates\Label.xaml" />
+    <Page Remove="ControlTemplates\ListBox.xaml" />
+    <Page Remove="ControlTemplates\Menu.xaml" />
+    <Page Remove="ControlTemplates\MenuItem.xaml" />
+    <Page Remove="ControlTemplates\RadioButton.xaml" />
+    <Page Remove="ControlTemplates\ScrollBar.xaml" />
+    <Page Remove="ControlTemplates\ScrollView.xaml" />
+    <Page Remove="ControlTemplates\StatusBar.xaml" />
+    <Page Remove="ControlTemplates\TextBox.xaml" />
+    <Page Remove="ControlTemplates\ToggleButton.xaml" />
+    <Page Remove="ControlTemplates\ToolBar.xaml" />
+    <Page Remove="ControlTemplates\TreeView.xaml" />
+    <Page Remove="ControlTemplates\TreeViewItem.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ControlTemplates\DynamicResource\" />
+    <Folder Include="ControlTemplates\StaticResource\Textarea\" />
   </ItemGroup>
 
 </Project>

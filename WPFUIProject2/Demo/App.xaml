@@ -8,7 +8,31 @@
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/Dark.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/BrushColorIndex.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/Label.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ScrollBar.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
+
+			<SolidColorBrush x:Key="Brush_ThemeColorHContrast" Color="{StaticResource ThemeColorHContrast}"/>
+			<SolidColorBrush x:Key="Brush_ThemeColor" Color="{StaticResource ThemeColor}"/>
+			<SolidColorBrush x:Key="Brush_ThemeColorLContrast" Color="{StaticResource ThemeColorLContrast}"/>
+
+			<SolidColorBrush x:Key="Brush_BackgroundColorHContrast" Color="{StaticResource BackgroundColorHContrast}"/>
+			<SolidColorBrush x:Key="Brush_BackgroundColor" Color="{StaticResource BackgroundColor}"/>
+			<SolidColorBrush x:Key="Brush_BackgroundColorLContrast" Color="{StaticResource BackgroundColorLContrast}"/>
+
+			<SolidColorBrush x:Key="Brush_TextColorHContrast" Color="{StaticResource TextColorHContrast}"/>
+			<SolidColorBrush x:Key="Brush_TextColor" Color="{StaticResource TextColor}"/>
+			<SolidColorBrush x:Key="Brush_TextColorLContrast" Color="{StaticResource TextColorLContrast}"/>
+
+			<SolidColorBrush x:Key="Brush_TextBGColorHContrast" Color="{StaticResource TextBGColorHContrast}"/>
+			<SolidColorBrush x:Key="Brush_TextBGColor" Color="{StaticResource TextBGColor}"/>
+			<SolidColorBrush x:Key="Brush_TextBGColorLContrast" Color="{StaticResource TextBGColorLContrast}"/>
+
+
+			<Style TargetType="GroupBox" BasedOn="{StaticResource StyleGroupBox}"/>
+			<Style TargetType="Label" BasedOn="{StaticResource StyleLabel}"/>
+			<Style TargetType="ScrollBar" BasedOn="{StaticResource StyleScrollBar}"/>
 		</ResourceDictionary>
     </Application.Resources>
 </Application>
