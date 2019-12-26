@@ -7,5 +7,5 @@ Because of the code of `WPF` on `.Net Core` and code of `WPF` on `.Net Framework
 MiRaIUI2 use 2 groups color(controls and panels color group and textarea colors group) to control all the colors.
 
 the colors defended as below:
-![Dark Theme Color Mode](WPFUIProject2\pic\DarkThemeColorMode.png)
-![Light Theme Color Mode](WPFUIProject2\pic\LightThemeColorMode.png)
+![Dark Theme Color Mode](./WPFUIProject2/pic/DarkThemeColorMode.png)
+![Light Theme Color Mode](./WPFUIProject2/pic/LightThemeColorMode.png)
