@@ -8,13 +8,13 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PointIn" Color="{StaticResource TextColorHContrast}"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PointIn" Color="{StaticResource ThemeColor}"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Normal_FocusOn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Normal_FocusOn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Normal_FocusOn" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_FocusOn" Color="{StaticResource BackgroundColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_FocusOn" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_FocusOn" Color="{StaticResource ThemeColor}"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Normal_PandF" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PandF" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PandF" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Normal_PandF" Color="{StaticResource BackgroundColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Normal_PandF" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Normal_PandF" Color="{StaticResource ThemeColor}"/>
 
 	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Pressed" Color="{StaticResource BackgroundColorHContrast}"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_Pressed" Color="{StaticResource TextColorLContrast}"/>
@@ -180,5 +180,51 @@
 	<SolidColorBrush x:Key="Brush_Textarea_FG_Toggle_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Textarea_Border_Toggle_Pressed" Color="#F00"/>
 
-
+	<Style x:Key="StyleFocusVisual">
+		<Setter Property="Control.Template">
+			<Setter.Value>
+				<ControlTemplate>
+					<Border x:Name="cbx" Opacity="0.8">
+						<Border.Effect>
+							<DropShadowEffect BlurRadius="8" Color="#FFF" ShadowDepth="0"/>
+						</Border.Effect>
+						<Border.Resources>
+							<ResourceDictionary>
+								<Storyboard x:Key="Storyboard1">
+									<ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="ctx">
+										<EasingThicknessKeyFrame KeyTime="0" Value="-4"/>
+										<EasingThicknessKeyFrame KeyTime="0:0:0.2" Value="-1"/>
+									</ThicknessAnimationUsingKeyFrames>
+									<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Opacity)" Storyboard.TargetName="cbx">
+										<LinearDoubleKeyFrame KeyTime="0" Value="0.4"/>
+										<LinearDoubleKeyFrame KeyTime="0:0:0.2" Value="0.8"/>
+									</DoubleAnimationUsingKeyFrames>
+								</Storyboard>
+								<Storyboard x:Key="StoryboardClose">
+									<ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="ctx">
+										<EasingThicknessKeyFrame KeyTime="0" Value="-1"/>
+										<EasingThicknessKeyFrame KeyTime="0:0:0.2" Value="-4"/>
+									</ThicknessAnimationUsingKeyFrames>
+									<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Opacity)" Storyboard.TargetName="cbx">
+										<LinearDoubleKeyFrame KeyTime="0" Value="0.8"/>
+										<LinearDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+									</DoubleAnimationUsingKeyFrames>
+								</Storyboard>
+							</ResourceDictionary>
+						</Border.Resources>
+						<Border.Triggers>
+							<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+								<BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+							</EventTrigger>
+							<EventTrigger RoutedEvent="FrameworkElement.Unloaded">
+								<BeginStoryboard Storyboard="{StaticResource StoryboardClose}"/>
+							</EventTrigger>
+						</Border.Triggers>
+						<!--<Rectangle Margin="-2" SnapsToDevicePixels="true" Stroke="{DynamicResource Brush_Control_Border_Normal_FocusOn}" StrokeThickness="1" StrokeDashArray="1 2"/>-->
+						<Rectangle x:Name="ctx" Margin="-1" SnapsToDevicePixels="true" Stroke="{DynamicResource Brush_Control_Border_Normal_FocusOn}" StrokeThickness="1"/>
+					</Border>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
 </ResourceDictionary>

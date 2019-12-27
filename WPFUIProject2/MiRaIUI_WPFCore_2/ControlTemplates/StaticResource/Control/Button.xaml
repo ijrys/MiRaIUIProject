@@ -3,9 +3,9 @@
 
 	<Style x:Key="StyleButtonWithBorder" TargetType="{x:Type Button}">
 		<Setter Property="FocusVisualStyle" Value="{StaticResource StyleFocusVisual}"/>
-		<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_Normal}"/>
-		<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_Normal}"/>
-		<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_Normal}"/>
+		<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_Normal}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Normal_Normal}"/>
+		<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_Normal}"/>
 		<Setter Property="BorderThickness" Value="1"/>
 		<Setter Property="HorizontalContentAlignment" Value="Center"/>
 		<Setter Property="VerticalContentAlignment" Value="Center"/>
@@ -21,27 +21,27 @@
 		</Setter>
 		<Style.Triggers>
 			<Trigger Property="IsFocused" Value="true">
-				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_FocusOn}"/>
-				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_FocusOn}"/>
-				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_FocusOn}"/>
+				<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_FocusOn}"/>
+				<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_FocusOn}"/>
+				<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Normal_FocusOn}"/>
 			</Trigger>
 			<Trigger Property="IsDefaulted" Value="true">
-				<Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+				<Setter Property="BorderBrush" Value="{StaticResource {x:Static SystemColors.HighlightBrushKey}}"/>
 			</Trigger>
 			<Trigger Property="IsMouseOver" Value="true">
-				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_PointIn}"/>
-				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_PointIn}"/>
-				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_PointIn}"/>
+				<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_PointIn}"/>
+				<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_PointIn}"/>
+				<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Normal_PointIn}"/>
 			</Trigger>
 			<Trigger Property="IsPressed" Value="true">
-				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_Pressed}"/>
-				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_Pressed}"/>
-				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_Pressed}"/>
+				<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_Pressed}"/>
+				<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_Pressed}"/>
+				<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Normal_Pressed}"/>
 			</Trigger>
 			<Trigger Property="IsEnabled" Value="false">
-				<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Disable_Normal}"/>
-				<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Disable_Normal}"/>
-				<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Disable_Normal}"/>
+				<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Disable_Normal}"/>
+				<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Disable_Normal}"/>
+				<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Disable_Normal}"/>
 			</Trigger>
 		</Style.Triggers>
 	</Style>
@@ -53,7 +53,7 @@
 				<Setter Property="BorderBrush" Value="{x:Null}"/>
 			</Trigger>
 			<Trigger Property="IsDefaulted" Value="true">
-				<Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+				<Setter Property="BorderBrush" Value="{StaticResource {x:Static SystemColors.HighlightBrushKey}}"/>
 			</Trigger>
 			<Trigger Property="IsMouseOver" Value="true">
 				<Setter Property="BorderBrush" Value="{x:Null}"/>

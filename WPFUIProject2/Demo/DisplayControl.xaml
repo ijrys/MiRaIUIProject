@@ -35,7 +35,32 @@
 							 Text="&lt;Label Style=&quot;{StaticResource StyleLabel_withborder}&quot;&gt;Label with border style&lt;/Label&gt;"/>
 			</Grid>
 		</GroupBox>
+		
+		<GroupBox Header="Button">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="36px"/>
+					<RowDefinition Height="6px"/>
+					<RowDefinition Height="36px"/>
+				</Grid.RowDefinitions>
 
+				<Button Grid.Row="0" Grid.Column="1" Style="{StaticResource StyleButton}">Button</Button>
+
+				<Button Grid.Row="0" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleButton}">Button</Button>
+
+				<Button Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleButtonWithBorder}">Button with border</Button>
+
+				<Button Grid.Row="2" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleButtonWithBorder}">Button with border</Button>
+			</Grid>
+		</GroupBox>
+		
 		<GroupBox Header="ScrollBar">
 			<Grid>
 				<Grid.ColumnDefinitions>

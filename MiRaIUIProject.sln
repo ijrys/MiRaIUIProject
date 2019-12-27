@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiRaIUI_WPFCore_2", "WPFUIP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creater_2", "WPFUIProject2\Creater_2\Creater_2.csproj", "{98D75479-964A-4EEF-89E1-3E516FA78E60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "WPFUIProject2\Tools\Tools.csproj", "{0FD48345-18A0-4124-893C-3FEDA939D61A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "WPFUIProject2\Tools\Tools.csproj", "{0FD48345-18A0-4124-893C-3FEDA939D61A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

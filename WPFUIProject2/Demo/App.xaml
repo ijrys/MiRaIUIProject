@@ -11,6 +11,7 @@
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/Label.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ScrollBar.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/Button.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 
 			<SolidColorBrush x:Key="Brush_ThemeColorHContrast" Color="{StaticResource ThemeColorHContrast}"/>
@@ -33,6 +34,7 @@
 			<Style TargetType="GroupBox" BasedOn="{StaticResource StyleGroupBox}"/>
 			<Style TargetType="Label" BasedOn="{StaticResource StyleLabel}"/>
 			<Style TargetType="ScrollBar" BasedOn="{StaticResource StyleScrollBar}"/>
+			<Style TargetType="Button" BasedOn="{StaticResource StyleButton}"/>
 		</ResourceDictionary>
     </Application.Resources>
 </Application>
