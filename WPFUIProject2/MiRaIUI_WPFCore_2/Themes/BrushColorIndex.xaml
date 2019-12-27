@@ -40,13 +40,13 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Disable_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Disable_Pressed" Color="#F00"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_Normal" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_Normal" Color="{StaticResource ThemeColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Normal" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_Normal" Color="{StaticResource ThemeColor}"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_PointIn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_PointIn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_PointIn" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_PointIn" Color="{StaticResource ThemeColorHContrast}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_PointIn" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_PointIn" Color="{StaticResource ThemeColor}"/>
 
 	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_FocusOn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_FocusOn" Color="#F00"/>
@@ -56,9 +56,9 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_PandF" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_PandF" Color="#F00"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_Pressed" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Pressed" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_Pressed" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_Pressed" Color="{StaticResource ThemeColorLContrast}"/>
+	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Pressed" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Toggle_Pressed" Color="{StaticResource ThemeColor}"/>
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_Normal" Color="{StaticResource BackgroundColor}"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="{StaticResource TextColor}"/>

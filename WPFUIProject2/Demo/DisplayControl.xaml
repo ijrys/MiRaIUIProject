@@ -60,7 +60,32 @@
 				<Button Grid.Row="2" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleButtonWithBorder}">Button with border</Button>
 			</Grid>
 		</GroupBox>
-		
+
+		<GroupBox Header="ToggleButton">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="36px"/>
+					<RowDefinition Height="6px"/>
+					<RowDefinition Height="36px"/>
+				</Grid.RowDefinitions>
+
+				<ToggleButton Grid.Row="0" Grid.Column="1" Style="{StaticResource StyleToggleButton}">ToggleButton</ToggleButton>
+
+				<ToggleButton Grid.Row="0" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleToggleButton}">ToggleButton</ToggleButton>
+
+				<ToggleButton Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleToggleButton_withBorder}">ToggleButton with border</ToggleButton>
+
+				<ToggleButton Grid.Row="2" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleToggleButton_withBorder}">ToggleButton with border</ToggleButton>
+			</Grid>
+		</GroupBox>
+
 		<GroupBox Header="ScrollBar">
 			<Grid>
 				<Grid.ColumnDefinitions>

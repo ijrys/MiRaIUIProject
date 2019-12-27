@@ -9,6 +9,13 @@
 		FontSize="16px"
         Title="MainWindow" Height="500" Width="800">
 	<Grid>
+		<Grid.Resources>
+			<ResourceDictionary>
+				<Style TargetType="ToggleButton" BasedOn="{StaticResource StyleToggleButton_withBorder}">
+					<Setter Property="Height" Value="48px"/>
+				</Style>
+			</ResourceDictionary>
+		</Grid.Resources>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="128px" MinWidth="64px"/>
 			<ColumnDefinition Width="auto"/>
@@ -24,7 +31,10 @@
 
 		<GridSplitter Grid.Column="1" HorizontalAlignment="Stretch" Width="4px"/>
 
-		<Frame Grid.Column="2" x:Name="Page_Content" NavigationUIVisibility="Hidden"/>
+		<ScrollViewer Grid.Column="2">
+			<Frame x:Name="Page_Content" NavigationUIVisibility="Hidden"/>
+
+		</ScrollViewer>
 
 
 	</Grid>
