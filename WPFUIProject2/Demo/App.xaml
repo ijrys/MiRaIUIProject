@@ -15,6 +15,7 @@
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ToggleButton.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Textarea/TextBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ListBox.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ListBoxItem.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 
 			<SolidColorBrush x:Key="Brush_ThemeColorHContrast" Color="{StaticResource ThemeColorHContrast}"/>
@@ -41,6 +42,7 @@
 			<Style TargetType="ToggleButton" BasedOn="{StaticResource StyleToggleButton_withBorder}"/>
 			<Style TargetType="TextBox" BasedOn="{StaticResource StyleTextBox}"/>
 			<Style TargetType="ListBox" BasedOn="{StaticResource StyleListBox}"/>
+			<Style TargetType="ListBoxItem" BasedOn="{StaticResource StyleListBoxItem}"/>
 		</ResourceDictionary>
     </Application.Resources>
 </Application>
