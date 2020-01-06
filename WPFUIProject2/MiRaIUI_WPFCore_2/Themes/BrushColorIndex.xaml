@@ -120,17 +120,17 @@
 	<SolidColorBrush x:Key="Brush_Panel_FG_Toggle_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_Border_Toggle_Pressed" Color="#F00"/>
 
-	<SolidColorBrush x:Key="Brush_Textarea_BG_Normal_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_Border_Normal_Normal" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Textarea_BG_Normal_Normal" Color="{StaticResource TextBGColor}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_Normal" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_Border_Normal_Normal" Color="{StaticResource ThemeColor}"/>
 
-	<SolidColorBrush x:Key="Brush_Textarea_BG_Normal_PointIn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_PointIn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_Border_Normal_PointIn" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Textarea_BG_Normal_PointIn" Color="{StaticResource TextBGColor}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_PointIn" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_Border_Normal_PointIn" Color="{StaticResource ThemeColorHContrast}"/>
 
-	<SolidColorBrush x:Key="Brush_Textarea_BG_Normal_FocusOn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_FocusOn" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_Border_Normal_FocusOn" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Textarea_BG_Normal_FocusOn" Color="{StaticResource TextBGColor}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_FocusOn" Color="{StaticResource TextColor}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_Border_Normal_FocusOn" Color="{StaticResource ThemeColorHContrast}"/>
 
 	<SolidColorBrush x:Key="Brush_Textarea_BG_Normal_PandF" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_PandF" Color="#F00"/>
@@ -140,9 +140,9 @@
 	<SolidColorBrush x:Key="Brush_Textarea_FG_Normal_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Textarea_Border_Normal_Pressed" Color="#F00"/>
 
-	<SolidColorBrush x:Key="Brush_Textarea_BG_Disable_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_FG_Disable_Normal" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Textarea_Border_Disable_Normal" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Textarea_BG_Disable_Normal" Color="{StaticResource TextBGColor}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_FG_Disable_Normal" Color="{StaticResource TextColorLContrast}"/>
+	<SolidColorBrush x:Key="Brush_Textarea_Border_Disable_Normal" Color="{StaticResource ThemeColorLContrast}"/>
 
 	<SolidColorBrush x:Key="Brush_Textarea_BG_Disable_PointIn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Textarea_FG_Disable_PointIn" Color="#F00"/>

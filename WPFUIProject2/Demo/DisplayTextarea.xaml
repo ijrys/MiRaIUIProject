@@ -9,6 +9,23 @@
       Title="DisplayTextarea">
 
     <StackPanel>
-        
-    </StackPanel>
+		<GroupBox Header="Testbox">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="48px"/>
+				</Grid.RowDefinitions>
+
+				<TextBox Grid.Column="1" Text="textbox"/>
+				<TextBox Grid.Column="3" IsEnabled="False"  Text="textbox"/>
+
+			</Grid>
+		</GroupBox>
+	</StackPanel>
 </Page>

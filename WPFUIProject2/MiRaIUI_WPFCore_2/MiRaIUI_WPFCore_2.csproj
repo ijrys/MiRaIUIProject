@@ -27,7 +27,6 @@
 
   <ItemGroup>
     <Folder Include="ControlTemplates\DynamicResource\" />
-    <Folder Include="ControlTemplates\StaticResource\Textarea\" />
   </ItemGroup>
 
 </Project>

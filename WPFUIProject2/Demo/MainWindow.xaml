@@ -31,7 +31,7 @@
 
 		<GridSplitter Grid.Column="1" HorizontalAlignment="Stretch" Width="4px"/>
 
-		<ScrollViewer Grid.Column="2">
+		<ScrollViewer Grid.Column="2" Padding="4">
 			<Frame x:Name="Page_Content" NavigationUIVisibility="Hidden"/>
 
 		</ScrollViewer>

@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Demo"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="800" d:DesignWidth="800"
       Title="DisplayControl">
 
     <StackPanel>
@@ -107,8 +107,30 @@
 
 				<ScrollBar Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleScrollBar}" Orientation="Vertical"/>
 				<ScrollBar Grid.Row="2" Grid.Column="3" Style="{StaticResource StyleScrollBar_withBorder}"  Orientation="Vertical"/>
+			</Grid>
+		</GroupBox>
 
+		<GroupBox Header="Listbox">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="72px"/>
+				</Grid.RowDefinitions>
 
+				<ListBox Grid.Column="1">
+					<ListBoxItem>1</ListBoxItem>
+					<ListBoxItem>2</ListBoxItem>
+					<ListBoxItem>3</ListBoxItem>
+					<ListBoxItem>4</ListBoxItem>
+					<ListBoxItem>5</ListBoxItem>
+					<ListBoxItem IsEnabled="False">6(disable)</ListBoxItem>
+					<ListBoxItem>7</ListBoxItem>
+				</ListBox>
+				
 			</Grid>
 		</GroupBox>
 	</StackPanel>

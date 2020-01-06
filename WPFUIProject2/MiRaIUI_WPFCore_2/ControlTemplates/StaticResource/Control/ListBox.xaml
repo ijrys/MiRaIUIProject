@@ -1,11 +1,11 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 	<Style x:Key="StyleListBox" TargetType="{x:Type ListBox}">
-		<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_Normal}"/>
-		<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_Normal}"/>
+		<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_Normal}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Normal_Normal}"/>
 		<Setter Property="BorderThickness" Value="1"/>
 		<!--<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>-->
-		<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_Normal}"/>
+		<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_Normal}"/>
 		<Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
 		<Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
 		<Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
@@ -22,8 +22,8 @@
 					</Border>
 					<ControlTemplate.Triggers>
 						<Trigger Property="IsEnabled" Value="false">
-							<Setter Property="Background" TargetName="Bd" Value="{DynamicResource Brush_Control_BG_Disable_Normal}"/>
-							<Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource Brush_Control_Border_Disable_Normal}"/>
+							<Setter Property="Background" TargetName="Bd" Value="{StaticResource Brush_Control_BG_Disable_Normal}"/>
+							<Setter Property="BorderBrush" TargetName="Bd" Value="{StaticResource Brush_Control_Border_Disable_Normal}"/>
 						</Trigger>
 						<MultiTrigger>
 							<MultiTrigger.Conditions>
