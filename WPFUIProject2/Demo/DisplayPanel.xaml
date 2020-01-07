@@ -43,5 +43,11 @@
 &lt;/GroupBox&gt;"/>
 			</Grid>
 		</GroupBox>
+
+		<GroupBox Header="ScrollViewer">
+			<ScrollViewer Grid.Row="0" Grid.Column="1" Height="128px" HorizontalScrollBarVisibility="Visible">
+				<Image Source="img/bg.jpg" Width="960px"/>
+			</ScrollViewer>
+		</GroupBox>
 	</StackPanel>
 </Page>

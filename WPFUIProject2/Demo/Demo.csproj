@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="img\bg.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MiRaIUI_WPFCore_2\MiRaIUI_WPFCore_2.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\bg.jpg" />
   </ItemGroup>
 
 </Project>

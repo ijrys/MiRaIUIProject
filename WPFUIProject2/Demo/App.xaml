@@ -10,15 +10,19 @@
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/BrushColorIndex.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/StyleProperty.xaml"/>
 
-				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/Label.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ScrollBar.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/Button.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ToggleButton.xaml"/>
-				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Textarea/TextBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ListBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ListBoxItem.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/RadioButton.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/CheckBox.xaml"/>
+
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/ScrollView.xaml"/>
+				
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Textarea/TextBox.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 
 			<SolidColorBrush x:Key="Brush_ThemeColorHContrast" Color="{StaticResource ThemeColorHContrast}"/>
@@ -47,6 +51,8 @@
 			<Style TargetType="ListBox" BasedOn="{StaticResource StyleListBox}"/>
 			<Style TargetType="ListBoxItem" BasedOn="{StaticResource StyleListBoxItem}"/>
 			<Style TargetType="RadioButton" BasedOn="{StaticResource StyleRadioButton}"/>
+			<Style TargetType="CheckBox" BasedOn="{StaticResource StyleCheckBox}"/>
+			<Style TargetType="ScrollViewer" BasedOn="{StaticResource StyleScrollViewer}"/>
 		</ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -9,7 +9,7 @@
       Title="DisplayBasicColor">
 	<StackPanel>
 		<GroupBox Header="ColorDisplay">
-			<Grid Height="48px">
+			<Grid Height="64px">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="1*"/>
 					<ColumnDefinition Width="1*"/>
@@ -43,7 +43,7 @@
 		</GroupBox>
 
 		<GroupBox Header="TextareaColorDisplay">
-			<Grid Height="48px">
+			<Grid Height="64px">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="1*"/>
 					<ColumnDefinition Width="1*"/>

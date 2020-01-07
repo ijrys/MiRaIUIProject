@@ -136,13 +136,17 @@
 
 		<GroupBox Header="RadioButton">
 			<StackPanel>
-
 				<RadioButton Grid.Row="0" Grid.Column="1">RadioButton1</RadioButton>
-
 				<RadioButton Grid.Row="0" Grid.Column="1">RadioButton2</RadioButton>
-
 				<RadioButton Grid.Row="0" Grid.Column="3" IsEnabled="False">RadioButton Disable</RadioButton>
+			</StackPanel>
+		</GroupBox>
 
+		<GroupBox Header="CheckBox">
+			<StackPanel>
+				<CheckBox Grid.Row="0" Grid.Column="1">CheckBox1</CheckBox>
+				<CheckBox Grid.Row="0" Grid.Column="1">CheckBox2</CheckBox>
+				<CheckBox Grid.Row="0" Grid.Column="3" IsEnabled="False">CheckBox Disable</CheckBox>
 			</StackPanel>
 		</GroupBox>
 	</StackPanel>
