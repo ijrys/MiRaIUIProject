@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+	<FontFamily x:Key="Control_FontFamily_Default">微软雅黑</FontFamily>
+	<sys:Double x:Key="Control_FontSize_Default">16</sys:Double>
+	<FontStretch x:Key="Control_FontStretch_Default">Normal</FontStretch>
+	<FontStyle x:Key="Control_FontStyle_Default">Normal</FontStyle>
+
+	<FontFamily x:Key="Panel_FontFamily_Default">微软雅黑</FontFamily>
+	<sys:Double x:Key="Panel_FontSize_Default">16</sys:Double>
+	<FontStretch x:Key="Panel_FontStretch_Default">Normal</FontStretch>
+	<FontStyle x:Key="Panel_FontStyle_Default">Normal</FontStyle>
+
+	<FontFamily x:Key="Textarea_FontFamily_Default">微软雅黑</FontFamily>
+	<sys:Double x:Key="Textarea_FontSize_Default">16</sys:Double>
+	<FontStretch x:Key="Textarea_FontStretch_Default">Normal</FontStretch>
+	<FontStyle x:Key="Textarea_FontStyle_Default">Normal</FontStyle>
+</ResourceDictionary>

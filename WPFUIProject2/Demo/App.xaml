@@ -8,6 +8,8 @@
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/Dark.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/BrushColorIndex.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/StyleProperty.xaml"/>
+
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/Label.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ScrollBar.xaml"/>
@@ -16,6 +18,7 @@
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Textarea/TextBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ListBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ListBoxItem.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/RadioButton.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 
 			<SolidColorBrush x:Key="Brush_ThemeColorHContrast" Color="{StaticResource ThemeColorHContrast}"/>
@@ -43,6 +46,7 @@
 			<Style TargetType="TextBox" BasedOn="{StaticResource StyleTextBox}"/>
 			<Style TargetType="ListBox" BasedOn="{StaticResource StyleListBox}"/>
 			<Style TargetType="ListBoxItem" BasedOn="{StaticResource StyleListBoxItem}"/>
+			<Style TargetType="RadioButton" BasedOn="{StaticResource StyleRadioButton}"/>
 		</ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -9,6 +9,10 @@
 		<Setter Property="HorizontalContentAlignment" Value="Center"/>
 		<Setter Property="VerticalContentAlignment" Value="Center"/>
 		<Setter Property="Padding" Value="1"/>
+		<Setter Property="FontFamily" Value="{StaticResource Control_FontFamily_Default}"/>
+		<Setter Property="FontSize" Value="{StaticResource Control_FontSize_Default}"/>
+		<Setter Property="FontStretch" Value="{StaticResource Control_FontStretch_Default}"/>
+		<Setter Property="FontStyle" Value="{StaticResource Control_FontStyle_Default}"/>
 		<Setter Property="Template">
 			<Setter.Value>
 				<ControlTemplate TargetType="{x:Type ToggleButton}">

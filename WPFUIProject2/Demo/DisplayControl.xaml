@@ -8,7 +8,7 @@
       d:DesignHeight="800" d:DesignWidth="800"
       Title="DisplayControl">
 
-    <StackPanel>
+	<StackPanel>
 		<GroupBox Header="Label">
 			<Grid>
 				<Grid.ColumnDefinitions>
@@ -35,7 +35,7 @@
 							 Text="&lt;Label Style=&quot;{StaticResource StyleLabel_withborder}&quot;&gt;Label with border style&lt;/Label&gt;"/>
 			</Grid>
 		</GroupBox>
-		
+
 		<GroupBox Header="Button">
 			<Grid>
 				<Grid.ColumnDefinitions>
@@ -130,8 +130,20 @@
 					<ListBoxItem IsEnabled="False">6(disable)</ListBoxItem>
 					<ListBoxItem>7</ListBoxItem>
 				</ListBox>
-				
+
 			</Grid>
+		</GroupBox>
+
+		<GroupBox Header="RadioButton">
+			<StackPanel>
+
+				<RadioButton Grid.Row="0" Grid.Column="1">RadioButton1</RadioButton>
+
+				<RadioButton Grid.Row="0" Grid.Column="1">RadioButton2</RadioButton>
+
+				<RadioButton Grid.Row="0" Grid.Column="3" IsEnabled="False">RadioButton Disable</RadioButton>
+
+			</StackPanel>
 		</GroupBox>
 	</StackPanel>
 </Page>

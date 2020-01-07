@@ -5,6 +5,10 @@
 		<Setter Property="BorderBrush" Value="{DynamicResource Brush_Textarea_Border_Normal_Normal}"/>
 		<Setter Property="Foreground" Value="{DynamicResource Brush_Textarea_FG_Normal_Normal}"/>
 		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="FontFamily" Value="{StaticResource Textarea_FontFamily_Default}"/>
+		<Setter Property="FontSize" Value="{StaticResource Textarea_FontSize_Default}"/>
+		<Setter Property="FontStretch" Value="{StaticResource Textarea_FontStretch_Default}"/>
+		<Setter Property="FontStyle" Value="{StaticResource Textarea_FontStyle_Default}"/>
 		<Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
 		<Setter Property="HorizontalContentAlignment" Value="Left"/>
 		<Setter Property="FocusVisualStyle" Value="{x:Null}"/>

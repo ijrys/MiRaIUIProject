@@ -4,6 +4,10 @@
 		<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_Normal}"/>
 		<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_Normal}"/>
 		<Setter Property="Padding" Value="5"/>
+		<Setter Property="FontFamily" Value="{StaticResource Control_FontFamily_Default}"/>
+		<Setter Property="FontSize" Value="{StaticResource Control_FontSize_Default}"/>
+		<Setter Property="FontStretch" Value="{StaticResource Control_FontStretch_Default}"/>
+		<Setter Property="FontStyle" Value="{StaticResource Control_FontStyle_Default}"/>
 		<Setter Property="HorizontalContentAlignment" Value="Left"/>
 		<Setter Property="VerticalContentAlignment" Value="Top"/>
 	</Style>
@@ -14,6 +18,10 @@
 		<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Normal_Normal}"/>
 		<Setter Property="BorderThickness" Value="1"/>
 		<Setter Property="Padding" Value="5"/>
+		<Setter Property="FontFamily" Value="{StaticResource Control_FontFamily_Default}"/>
+		<Setter Property="FontSize" Value="{StaticResource Control_FontSize_Default}"/>
+		<Setter Property="FontStretch" Value="{StaticResource Control_FontStretch_Default}"/>
+		<Setter Property="FontStyle" Value="{StaticResource Control_FontStyle_Default}"/>
 		<Setter Property="HorizontalContentAlignment" Value="Left"/>
 		<Setter Property="VerticalContentAlignment" Value="Top"/>
 	</Style>
