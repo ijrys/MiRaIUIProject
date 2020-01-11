@@ -18,9 +18,12 @@
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ListBoxItem.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/RadioButton.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/CheckBox.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ComboBox.xaml"/>
 
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/ScrollView.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/StatusBar.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/ToolBar.xaml"/>
 				
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Textarea/TextBox.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
@@ -53,6 +56,9 @@
 			<Style TargetType="RadioButton" BasedOn="{StaticResource StyleRadioButton}"/>
 			<Style TargetType="CheckBox" BasedOn="{StaticResource StyleCheckBox}"/>
 			<Style TargetType="ScrollViewer" BasedOn="{StaticResource StyleScrollViewer}"/>
+			<Style TargetType="StatusBar" BasedOn="{StaticResource StyleStatusBar}"/>
+			<Style TargetType="ToolBar" BasedOn="{StaticResource StyleToolBar}"/>
+			<Style TargetType="ComboBox" BasedOn="{StaticResource StyleComboBox}"/>
 		</ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -149,5 +149,25 @@
 				<CheckBox Grid.Row="0" Grid.Column="3" IsEnabled="False">CheckBox Disable</CheckBox>
 			</StackPanel>
 		</GroupBox>
+
+		<GroupBox Header="ComboBox">
+			<StackPanel>
+				<ComboBox>
+					<ComboBoxItem>1</ComboBoxItem>
+					<ComboBoxItem>2</ComboBoxItem>
+					<ComboBoxItem>3</ComboBoxItem>
+				</ComboBox>
+				<ComboBox IsEnabled="False" SelectedIndex="0">
+					<ComboBoxItem>1</ComboBoxItem>
+					<ComboBoxItem>2</ComboBoxItem>
+					<ComboBoxItem>3</ComboBoxItem>
+				</ComboBox>
+				<ComboBox IsEditable="True">
+					<ComboBoxItem>1</ComboBoxItem>
+					<ComboBoxItem>2</ComboBoxItem>
+					<ComboBoxItem>3</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+		</GroupBox>
 	</StackPanel>
 </Page>
