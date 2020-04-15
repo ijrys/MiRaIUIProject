@@ -9,6 +9,11 @@
 	<Color x:Key="BackgroundColor"          A="0xFF" R="0x0B" G="0x10" B="0x13"/>
 	<Color x:Key="BackgroundColorLContrast" A="0xFF" R="0x24" G="0x2B" B="0x3F"/>
 
+	<Color x:Key="TBackgroundColor0" A="0x00" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="TBackgroundColor1" A="0x11" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="TBackgroundColor2" A="0x22" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="TBackgroundColor3" A="0x33" R="0xFF" G="0xFF" B="0xFF"/>
+	
 	<Color x:Key="TextColorHContrast" A="0xFF" R="0xFF" G="0xFF" B="0xFF"/>
 	<Color x:Key="TextColor"          A="0xFF" R="0xE8" G="0xE8" B="0xD8"/>
 	<Color x:Key="TextColorLContrast" A="0xFF" R="0xB0" G="0xB0" B="0xA0"/>
@@ -16,4 +21,18 @@
 	<Color x:Key="TextBGColorHContrast" A="0xFF" R="0x00" G="0x00" B="0x00"/>
 	<Color x:Key="TextBGColor"          A="0xFF" R="0x22" G="0x22" B="0x1E"/>
 	<Color x:Key="TextBGColorLContrast" A="0xFF" R="0x28" G="0x28" B="0x24"/>
+
+	
+	<Color x:Key="ControlHLColorNone"      A="0x00" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="ControlHLColorWA"          A="0xFF" R="0xFF" G="0xFF" B="0xFF"/>
+	
+	<Color x:Key="ControlHLColorHContrast" A="0x40" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="ControlHLColor"          A="0x28" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="ControlHLColorLContrast" A="0x10" R="0xFF" G="0xFF" B="0xFF"/>
+	<!--<Color x:Key="ControlHLColorPressed"   A="0x33" R="0x00" G="0x00" B="0x00"/>-->
+
+	<Color x:Key="ControlHLNTColorHContrast" A="0xFF" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="ControlHLNTColor"          A="0x66" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="ControlHLNTColorLContrast" A="0x33" R="0xFF" G="0xFF" B="0xFF"/>
+	<Color x:Key="ControlHLNTColorPressed"   A="0x33" R="0x00" G="0x00" B="0x00"/>
 </ResourceDictionary>

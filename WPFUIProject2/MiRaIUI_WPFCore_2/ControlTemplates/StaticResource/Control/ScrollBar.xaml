@@ -5,7 +5,7 @@
 			<ResourceDictionary>
 				<Style x:Key="ScrollBarButton" TargetType="{x:Type RepeatButton}">
 					<Setter Property="FocusVisualStyle" Value="{StaticResource StyleFocusVisual}"/>
-					<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_Normal}"/>
+					<Setter Property="Background" Value="{StaticResource Brush_ControlHLColorLContrast}"/>
 					<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_Normal}"/>
 					<Setter Property="BorderBrush" Value="{x:Null}"/>
 					<Setter Property="BorderThickness" Value="0"/>
@@ -25,11 +25,11 @@
 					</Setter>
 					<Style.Triggers>
 						<Trigger Property="IsMouseOver" Value="true">
-							<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_PointIn}"/>
+							<Setter Property="Background" Value="{StaticResource Brush_ControlHLColor}"/>
 							<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_PointIn}"/>
 						</Trigger>
 						<Trigger Property="IsPressed" Value="true">
-							<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_Pressed}"/>
+							<Setter Property="Background" Value="{StaticResource Brush_ControlHLColorHContrast}"/>
 							<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_Pressed}"/>
 						</Trigger>
 						<Trigger Property="IsEnabled" Value="false">

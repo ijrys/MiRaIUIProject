@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:MiRaIUI_WPFCore_2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+	<Grid>
+		<Border Background="#F00" BorderBrush="Black" BorderThickness="5" SnapsToDevicePixels="True">
+			<Grid >
+				<Rectangle Fill="#999" />
+				<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">123456</TextBlock>
+			</Grid>
 
-    </Grid>
+		</Border>
+	</Grid>
 </Window>

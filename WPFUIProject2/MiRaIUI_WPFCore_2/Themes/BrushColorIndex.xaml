@@ -1,5 +1,19 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<SolidColorBrush x:Key="Brush_TBackgroundColor0" Color="{StaticResource TBackgroundColor0}"/>
+	<SolidColorBrush x:Key="Brush_TBackgroundColor1" Color="{StaticResource TBackgroundColor1}"/>
+	<SolidColorBrush x:Key="Brush_TBackgroundColor2" Color="{StaticResource TBackgroundColor2}"/>
+	<SolidColorBrush x:Key="Brush_TBackgroundColor3" Color="{StaticResource TBackgroundColor3}"/>
+
+	<SolidColorBrush x:Key="Brush_Control_BGT_Normal_Normal"  Color="{StaticResource TBackgroundColor0}"/>
+	<SolidColorBrush x:Key="Brush_Control_BGT_Normal_PointIn" Color="{StaticResource TBackgroundColor2}"/>
+	<SolidColorBrush x:Key="Brush_Control_BGT_Normal_FocusOn" Color="{StaticResource TBackgroundColor1}"/>
+	<SolidColorBrush x:Key="Brush_Control_BGT_Normal_PandF"   Color="{StaticResource TBackgroundColor2}"/>
+	<SolidColorBrush x:Key="Brush_Control_BGT_Normal_Pressed" Color="{StaticResource TBackgroundColor3}"/>
+	<SolidColorBrush x:Key="Brush_Control_BGT_Disable_Normal" Color="{StaticResource TBackgroundColor0}"/>
+	
+	
+	
 	<SolidColorBrush x:Key="Brush_Control_BG_Normal_Normal" Color="{StaticResource BackgroundColor}"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Normal_Normal" Color="{StaticResource TextColor}"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Normal_Normal" Color="{StaticResource ThemeColor}"/>
@@ -24,7 +38,7 @@
 	<SolidColorBrush x:Key="Brush_Control_FG_Disable_Normal" Color="{StaticResource TextColorLContrast}"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Disable_Normal" Color="{StaticResource ThemeColorLContrast}"/>
 
-	<SolidColorBrush x:Key="Brush_Control_BG_Disable_PointIn" Color="#F00"/>
+	<!--<SolidColorBrush x:Key="Brush_Control_BG_Disable_PointIn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Disable_PointIn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_Border_Disable_PointIn" Color="#F00"/>
 
@@ -38,7 +52,7 @@
 
 	<SolidColorBrush x:Key="Brush_Control_BG_Disable_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Disable_Pressed" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Control_Border_Disable_Pressed" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Control_Border_Disable_Pressed" Color="#F00"/>-->
 
 	<SolidColorBrush x:Key="Brush_Control_BG_Toggle_Normal" Color="{StaticResource ThemeColor}"/>
 	<SolidColorBrush x:Key="Brush_Control_FG_Toggle_Normal" Color="{StaticResource TextColor}"/>

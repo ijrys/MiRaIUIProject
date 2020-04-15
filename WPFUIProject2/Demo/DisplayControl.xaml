@@ -60,6 +60,30 @@
 				<Button Grid.Row="2" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleButtonWithBorder}">Button with border</Button>
 			</Grid>
 		</GroupBox>
+		<GroupBox Header="ButtonT">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="36px"/>
+					<RowDefinition Height="6px"/>
+					<RowDefinition Height="36px"/>
+				</Grid.RowDefinitions>
+
+				<Button Grid.Row="0" Grid.Column="1" Style="{StaticResource StyleButtonT}">Button</Button>
+
+				<Button Grid.Row="0" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleButtonT}">Button</Button>
+
+				<Button Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleButtonTWithBorder}">Button with border</Button>
+
+				<Button Grid.Row="2" Grid.Column="3" IsEnabled="False" Style="{StaticResource StyleButtonTWithBorder}">Button with border</Button>
+			</Grid>
+		</GroupBox>
 
 		<GroupBox Header="ToggleButton">
 			<Grid>
