@@ -21,5 +21,6 @@ namespace MiRaIUI_WPFCore_2 {
 		public MainWindow() {
 			InitializeComponent();
 		}
+
 	}
 }

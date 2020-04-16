@@ -29,10 +29,29 @@
 				<TextBox Grid.Row="0" Grid.Column="3" IsReadOnly="True"  VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
 							 Text="&lt;Label Style=&quot;{StaticResource StyleLabel}&quot;&gt;Label normal style&lt;/Label&gt;&#x0a;"/>
 
-				<Label Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleLabel_withBorder}">Label with border style</Label>
+				<Label Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleLabelWithBorder}">Label with border style</Label>
 
 				<TextBox Grid.Row="2" Grid.Column="3" IsReadOnly="True"  VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
 							 Text="&lt;Label Style=&quot;{StaticResource StyleLabel_withborder}&quot;&gt;Label with border style&lt;/Label&gt;"/>
+			</Grid>
+		</GroupBox>
+		<GroupBox Header="LabelT">
+			<Grid Background="#D63">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+					<ColumnDefinition Width="1*"/>
+					<ColumnDefinition Width="6px"/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="36px"/>
+					<RowDefinition Height="6px"/>
+					<RowDefinition Height="36px"/>
+				</Grid.RowDefinitions>
+
+				<Label Grid.Row="0" Grid.Column="1" Style="{StaticResource StyleLabelT}">Label normal style</Label>
+				<Label Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleLabelTWithBorder}">Label with border style</Label>
 			</Grid>
 		</GroupBox>
 
@@ -61,7 +80,7 @@
 			</Grid>
 		</GroupBox>
 		<GroupBox Header="ButtonT">
-			<Grid>
+			<Grid Background="#D63">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="6px"/>
 					<ColumnDefinition Width="1*"/>

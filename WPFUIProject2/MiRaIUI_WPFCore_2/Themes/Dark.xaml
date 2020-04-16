@@ -1,6 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-
+	
+	
 	<Color x:Key="ThemeColorHContrast" A="0xFF" R="0x0F" G="0x8B" B="0xFB"/>
 	<Color x:Key="ThemeColor"          A="0xFF" R="0x00" G="0x5C" B="0xAF"/>
 	<Color x:Key="ThemeColorLContrast" A="0xFF" R="0x00" G="0x38" B="0x6B"/>

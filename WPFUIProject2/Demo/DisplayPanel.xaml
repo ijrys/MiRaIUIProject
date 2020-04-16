@@ -68,5 +68,23 @@
 				</ToolBarPanel>
 			</ToolBar>
 		</GroupBox>
+
+		<GroupBox Header="Menu">
+			<Menu>
+				<MenuItem Header="File">
+					<MenuItem Header="Open"/>
+					<MenuItem Header="Save" IsEnabled="False"/>
+					<MenuItem Header="Save As">
+						<MenuItem Header="*.txt"/>
+						<MenuItem Header="*.docx"/>
+						<MenuItem Header="*.pdf"/>
+					</MenuItem>
+					<Separator/>
+					<MenuItem Header="Exit"/>
+				</MenuItem>
+				<MenuItem Header="Edit"/>
+				<MenuItem Header="Customer"/>
+			</Menu>
+		</GroupBox>
 	</StackPanel>
 </Page>
