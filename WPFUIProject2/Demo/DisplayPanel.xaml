@@ -86,5 +86,22 @@
 				<MenuItem Header="Customer"/>
 			</Menu>
 		</GroupBox>
+
+		<GroupBox Header="ContextMenu">
+			<Grid Height="32px">
+				<Grid.ContextMenu>
+					<ContextMenu>
+						<MenuItem Header="edit">
+							<MenuItem Header="copy"/>
+							<MenuItem Header="cut"/>
+							<Separator/>
+							<MenuItem Header="paste"/>
+						</MenuItem>
+						<MenuItem Header="find"/>
+					</ContextMenu>
+				</Grid.ContextMenu>
+				<Label>Please click the right mouse button</Label>
+			</Grid>
+		</GroupBox>
 	</StackPanel>
 </Page>

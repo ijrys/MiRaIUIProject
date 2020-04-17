@@ -10,5 +10,12 @@
 
 		<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_Normal}"/>
 		<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_Normal}"/>
+
+
+		<Style.Resources>
+			<ResourceDictionary>
+				<Style TargetType="MenuItem" BasedOn="{StaticResource StyleMenuItemLite}"/>
+			</ResourceDictionary>
+		</Style.Resources>
 	</Style>
 </ResourceDictionary>
