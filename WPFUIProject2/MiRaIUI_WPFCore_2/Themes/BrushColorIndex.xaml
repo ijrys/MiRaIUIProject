@@ -78,7 +78,7 @@
 	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Normal" Color="{StaticResource TextColor}"/>
 	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_Normal" Color="{StaticResource ThemeColor}"/>
 
-	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_PointIn" Color="#F00"/>
+	<!--<SolidColorBrush x:Key="Brush_Panel_BG_Normal_PointIn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_PointIn" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_PointIn" Color="#F00"/>
 
@@ -92,9 +92,9 @@
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Normal_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Normal_Pressed" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_Pressed" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Normal_Pressed" Color="#F00"/>-->
 
-	<SolidColorBrush x:Key="Brush_Panel_BG_Disable_Normal" Color="#F00"/>
+	<!--<SolidColorBrush x:Key="Brush_Panel_BG_Disable_Normal" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Disable_Normal" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_Border_Disable_Normal" Color="#F00"/>
 
@@ -112,7 +112,7 @@
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Disable_Pressed" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Disable_Pressed" Color="#F00"/>
-	<SolidColorBrush x:Key="Brush_Panel_Border_Disable_Pressed" Color="#F00"/>
+	<SolidColorBrush x:Key="Brush_Panel_Border_Disable_Pressed" Color="#F00"/>-->
 
 	<SolidColorBrush x:Key="Brush_Panel_BG_Toggle_Normal" Color="#F00"/>
 	<SolidColorBrush x:Key="Brush_Panel_FG_Toggle_Normal" Color="#F00"/>

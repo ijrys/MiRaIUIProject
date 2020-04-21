@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Demo"
              StartupUri="MainWindow.xaml">
-    <Application.Resources>
+	<Application.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/Themes/Dark.xaml"/>
@@ -19,14 +19,16 @@
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/RadioButton.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/CheckBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ComboBox.xaml"/>
-				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/MenuItem.xaml"/> 
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/MenuItem.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ContextMenu.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/GridSplitter.xaml"/>
 
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/ScrollView.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/StatusBar.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/ToolBar.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/Menu.xaml"/>
-				
+
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Textarea/TextBox.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 
@@ -63,6 +65,8 @@
 			<Style TargetType="ComboBox" BasedOn="{StaticResource StyleComboBox}"/>
 			<Style TargetType="Menu" BasedOn="{StaticResource StyleMenu}"/>
 			<Style TargetType="MenuItem" BasedOn="{StaticResource StyleMenuItem}"/>
+			<Style TargetType="ContextMenu" BasedOn="{StaticResource StyleContextMenu}"/>
+			<Style TargetType="GridSplitter" BasedOn="{StaticResource StyleGridSplitter}"/>
 		</ResourceDictionary>
-    </Application.Resources>
+	</Application.Resources>
 </Application>

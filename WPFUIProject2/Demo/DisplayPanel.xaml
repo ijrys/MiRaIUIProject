@@ -8,7 +8,9 @@
       d:DesignHeight="800" d:DesignWidth="800"
       Title="DisplayPanel">
 	<Page.Resources>
-
+		<ContextMenu x:Key="abc">
+			
+		</ContextMenu>
 	</Page.Resources>
 
 	<StackPanel>
@@ -88,7 +90,7 @@
 		</GroupBox>
 
 		<GroupBox Header="ContextMenu">
-			<Grid Height="32px">
+			<Grid Height="48px">
 				<Grid.ContextMenu>
 					<ContextMenu>
 						<MenuItem Header="edit">
@@ -100,7 +102,7 @@
 						<MenuItem Header="find"/>
 					</ContextMenu>
 				</Grid.ContextMenu>
-				<Label>Please click the right mouse button</Label>
+				<Label Margin="4px">Please click the right mouse button</Label>
 			</Grid>
 		</GroupBox>
 	</StackPanel>
