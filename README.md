@@ -9,3 +9,6 @@ MiRaIUI2 use 2 groups color(controls and panels color group and textarea colors 
 the colors defended as below:
 ![Dark Theme Color Mode](./WPFUIProject2/pic/DarkThemeColorMode.png)
 ![Light Theme Color Mode](./WPFUIProject2/pic/LightThemeColorMode.png)
+
+preview:
+![dark preview](./WPFUIProject2/pic/pvDark.png)
