@@ -31,14 +31,6 @@
 									<Setter Property="Fill" TargetName="ExpandPath" Value="{StaticResource Brush_Control_FG_Normal_PointIn}"/>
 									<Setter Property="Stroke" TargetName="ExpandPath" Value="{StaticResource Brush_Control_FG_Normal_PointIn}"/>
 								</Trigger>
-								<!--<MultiTrigger>
-										<MultiTrigger.Conditions>
-											<Condition Property="IsMouseOver" Value="True"/>
-											<Condition Property="IsChecked" Value="True"/>
-										</MultiTrigger.Conditions>
-										<Setter Property="Stroke" TargetName="ExpandPath" Value="{StaticResource TreeViewItem.TreeArrow.MouseOver.Checked.Stroke}"/>
-										<Setter Property="Fill" TargetName="ExpandPath" Value="{StaticResource TreeViewItem.TreeArrow.MouseOver.Checked.Fill}"/>
-									</MultiTrigger>-->
 							</ControlTemplate.Triggers>
 						</ControlTemplate>
 					</Setter.Value>
@@ -47,11 +39,11 @@
 
 		</Style.Resources>
 
-		<Setter Property="Background" Value="{DynamicResource Brush_Control_BG_Normal_Normal}"/>
+		<Setter Property="Background" Value="{StaticResource Brush_Control_BG_Normal_Normal}"/>
 		<Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
 		<Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
 		<Setter Property="Padding" Value="1,0,0,0"/>
-		<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_Normal}"/>
+		<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_Normal}"/>
 		<Setter Property="FocusVisualStyle" Value="{StaticResource StyleFocusVisual}"/>
 		<Setter Property="Template">
 			<Setter.Value>
@@ -64,7 +56,7 @@
 						</Grid.ColumnDefinitions>
 						<Grid.RowDefinitions>
 							<RowDefinition Height="Auto"/>
-							<RowDefinition/>
+							<RowDefinition />
 						</Grid.RowDefinitions>
 						<ToggleButton x:Name="Expander" ClickMode="Press" IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}}" Style="{StaticResource ExpandCollapseToggleStyle}"/>
 						<Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Grid.Column="1" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
@@ -80,9 +72,9 @@
 							<Setter Property="Visibility" TargetName="Expander" Value="Hidden"/>
 						</Trigger>
 						<Trigger Property="IsSelected" Value="true">
-							<Setter Property="Background" TargetName="Bd" Value="{DynamicResource Brush_Control_BG_Normal_PointIn}"/>
-							<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Normal_PointIn}"/>
-							<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Normal_PointIn}"/>
+							<Setter Property="Background" TargetName="Bd" Value="{StaticResource Brush_Control_BG_Normal_PointIn}"/>
+							<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Normal_PointIn}"/>
+							<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Normal_PointIn}"/>
 						</Trigger>
 						<!--<MultiTrigger>
 								<MultiTrigger.Conditions>
@@ -93,9 +85,9 @@
 								<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightTextBrushKey}}"/>
 							</MultiTrigger>-->
 						<Trigger Property="IsEnabled" Value="false">
-							<Setter Property="Background" TargetName="Bd" Value="{DynamicResource Brush_Control_BG_Disable_Normal}"/>
-							<Setter Property="Foreground" Value="{DynamicResource Brush_Control_FG_Disable_Normal}"/>
-							<Setter Property="BorderBrush" Value="{DynamicResource Brush_Control_Border_Disable_Normal}"/>
+							<Setter Property="Background" TargetName="Bd" Value="{StaticResource Brush_Control_BG_Disable_Normal}"/>
+							<Setter Property="Foreground" Value="{StaticResource Brush_Control_FG_Disable_Normal}"/>
+							<Setter Property="BorderBrush" Value="{StaticResource Brush_Control_Border_Disable_Normal}"/>
 						</Trigger>
 					</ControlTemplate.Triggers>
 				</ControlTemplate>

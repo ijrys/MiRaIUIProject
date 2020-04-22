@@ -105,5 +105,27 @@
 				<Label Margin="4px">Please click the right mouse button</Label>
 			</Grid>
 		</GroupBox>
+
+		<GroupBox Header="TreeView">
+			<Grid Height="128px">
+				<TreeView>
+					<TreeViewItem Header="0">
+						<TreeViewItem Header="1"/>
+						<TreeViewItem Header="2"/>
+						<TreeViewItem Header="3">
+							<TreeViewItem Header="3.1"/>
+							<TreeViewItem Header="3.2"/>
+						</TreeViewItem>
+						<TreeViewItem Header="4"/>
+					</TreeViewItem>
+					<TreeViewItem Header="10">
+						<TreeViewItem Header="11"/>
+						<TreeViewItem Header="12"/>
+						<TreeViewItem Header="13"/>
+						<TreeViewItem Header="14"/>
+					</TreeViewItem>
+				</TreeView>
+			</Grid>
+		</GroupBox>
 	</StackPanel>
 </Page>

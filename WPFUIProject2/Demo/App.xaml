@@ -22,12 +22,14 @@
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/MenuItem.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/ContextMenu.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/GridSplitter.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Control/TreeViewItem.xaml"/>
 
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/GroupBox.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/ScrollView.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/StatusBar.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/ToolBar.xaml"/>
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/Menu.xaml"/>
+				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Panel/TreeView.xaml"/>
 
 				<ResourceDictionary Source="pack://application:,,,/MiRaIUI_WPFCore_2;component/ControlTemplates/StaticResource/Textarea/TextBox.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
@@ -67,6 +69,8 @@
 			<Style TargetType="MenuItem" BasedOn="{StaticResource StyleMenuItem}"/>
 			<Style TargetType="ContextMenu" BasedOn="{StaticResource StyleContextMenu}"/>
 			<Style TargetType="GridSplitter" BasedOn="{StaticResource StyleGridSplitter}"/>
+			<Style TargetType="TreeView" BasedOn="{StaticResource StyleTreeView}"/>
+			<Style TargetType="TreeViewItem" BasedOn="{StaticResource StyleTreeViewItem}"/>
 		</ResourceDictionary>
 	</Application.Resources>
 </Application>
